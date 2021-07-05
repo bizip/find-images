@@ -6,7 +6,11 @@ const usersList=(props)=>{
 const loading=props.data.loading;
 return <div className={classes.layout}>
     {!loading && props.data.useImage.map((data,key)=>{
-     return <img key={key} className={classes.img} src={data.url} alt="" />
+
+     return <div key={key} className={classes.imgthimb}>
+       <h4>{data.title}</h4>
+       <img className={classes.img} src={data.url} alt="" />
+       </div>
     })}
 
   
