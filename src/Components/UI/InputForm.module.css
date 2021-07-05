@@ -1,0 +1,47 @@
+.formsearch{
+    margin: 6% auto;
+    text-align: center;
+    font: bold 13px sans-serif;
+    max-width: 70%;
+    min-width: auto;
+    position: relative;
+}
+.formsearch h1{
+color: #246696;
+padding-bottom: 12px;
+}
+
+.formsearch input{
+    width: 60%;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 15px 14px 40px;
+    border: 1px solid #246696;
+    border-right: 0;
+    color:#246696;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.formsearch button{
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color:  #246696;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    padding: 15px 22px;
+    font-weight: bold;
+    margin-left: -4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.formsearch i{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 16px;
+    color: #246696;
+}
