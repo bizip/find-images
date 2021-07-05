@@ -16,7 +16,6 @@ function App() {
 
     <InputForm onAddId={getIdFromInput} />
     <ImageList data={data} />
-    {console.log(data.loading)}
   
     </Fragment>
   )
